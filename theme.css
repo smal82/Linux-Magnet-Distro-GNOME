@@ -1,0 +1,111 @@
+/* Modern light theme for Linux Magnet Distro */
+
+window {
+    background: #f6fafd;
+    color: #222;
+    font-family: "Segoe UI", "Cantarell", "Ubuntu", sans-serif;
+}
+
+.headerbar {
+    background: linear-gradient(90deg, rgba(79,140,255,0.9) 0%, rgba(99,226,255,0.9) 100%);
+    color: #fff;
+    border-bottom: 2.5px solid #4f8cff;
+    min-height: 56px;
+    border-radius: 0 0 24px 24px;
+    box-shadow: 0 8px 32px rgba(90,191,255,0.13);
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 17px;
+}
+
+.headerbar .title {
+    color: #fff;
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    /* text-shadow non sempre supportato */
+    margin-left: 6px;
+}
+.headerbar .subtitle {
+    color: #e8f6ff;
+    font-size: 13px;
+    font-style: italic;
+    margin-left: 6px;
+}
+
+.headerbar button {
+    background: rgba(255,255,255,0.12);
+    color: #fff;
+    border-radius: 10px;
+    /* transition non sempre supportato */
+    margin-left: 7px;
+    border: none;
+    min-width: 33px;
+    min-height: 33px;
+    box-shadow: 0 2px 8px rgba(79,140,255,0.13);
+}
+.headerbar button:hover {
+    background: #fff;
+    color: #4f8cff;
+}
+
+.header-logo {
+    border-radius: 11px;
+    margin: 0 10px 0 10px;
+    background: rgba(255,255,255,0.09);
+    box-shadow: 0 2px 8px rgba(37,108,255,0.13);
+    min-width: 40px;
+    min-height: 40px;
+}
+
+.button, .button.suggested-action {
+    background-image: none;
+    background-color: #4f8cff;
+    color: #fff;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    box-shadow: 0 2px 8px rgba(79,140,255,0.13);
+    border: none;
+    min-height: 40px;
+}
+
+.button:hover,
+.button.suggested-action:hover {
+    background-color: #63e2ff;
+    color: #222;
+}
+
+.button:active {
+    background-color: #256cff;
+    color: #fff;
+}
+
+.treeview {
+    background: #fff;
+    border-radius: 15px;
+    border: 1px solid #e0e7ef;
+    font-size: 15px;
+    color: #1d3557;
+    box-shadow: 0 2px 8px rgba(79,140,255,0.07);
+}
+
+.treeview row:selected, .treeview row:selected:focus {
+    background-color: #e3f3ff;
+    color: #4f8cff;
+}
+
+label {
+    font-size: 15px;
+    color: #1d3557;
+}
+
+window > box {
+    padding: 18px 18px 14px 18px;
+}
+
+scrolledwindow {
+    border-radius: 14px;
+    border: none;
+    background: #f4f6fa;
+}
